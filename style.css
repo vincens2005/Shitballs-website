@@ -5,9 +5,10 @@
 	--theme-main-font-size: 1rem;
 	--theme-text-color: #fff;
 	--theme-background-color: #2c2c2c;
-	--theme-link-color: #619eb3;
+	--theme-link-color: #79ddff;
 	--theme-dim-shadow-color: #212121;
 	--theme-shadow-color: #161616;
+	--theme-gray-tansparent: #2121215f;
 }
 
 html {
@@ -35,6 +36,10 @@ body {
 	text-align: center;
 }
 
+.text-left {
+	text-align: left !important;
+}
+
 a {
 	outline: 0;
 	cursor: pointer;
@@ -50,9 +55,14 @@ a:hover {
 
 #main {
 	margin-top: clamp(1.5em, 3vw, 10em);
-	filter: drop-shadow(0 0 1em var(--theme-shadow-color));
 }
 
 #main h1 {
+	filter: drop-shadow(0 0 1rem var(--theme-shadow-color));
+}
 
+.graycard {
+	background: var(--theme-gray-tansparent);
+	padding: 0.1rem max(2px, 2vw);
+	width: min(80%, 37em);
 }
