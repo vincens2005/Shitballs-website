@@ -62,7 +62,10 @@ a:hover {
 }
 
 .graycard {
+	margin-top: 1em;
 	background: var(--theme-gray-tansparent);
 	padding: 0.1rem max(2px, 2vw);
 	width: min(80%, 37em);
+	border-radius: 0.3em;
+	
 }
