@@ -30,6 +30,11 @@ body {
 	margin: 0;
 }
 
+body.newyear {
+	background: url("/newyear.jpg") var(--theme-background-color);
+}
+
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
