@@ -31,7 +31,7 @@ body {
 }
 
 body.newyear {
-	background: url("/newyear.jpg") var(--theme-background-color);
+	background-image: url("/newyear.jpg");
 }
 
 
@@ -67,10 +67,10 @@ a:hover {
 }
 
 .graycard {
-	margin-top: 1em;
+	margin: 0.5em auto;
 	background: var(--theme-gray-tansparent);
 	padding: 0.1rem max(2px, 2vw);
 	width: min(80%, 37em);
 	border-radius: 0.3em;
-	
+
 }
