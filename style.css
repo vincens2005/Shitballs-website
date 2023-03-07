@@ -76,9 +76,6 @@ a:hover {
 }
 
 .scary-banner {
-	position: fixed;
-	top: 0;
 	background: var(--theme-alert-color);
-	padding: 15px;
-	width: 100%;
+	padding: 10px max(5px, 2vw);
 }
