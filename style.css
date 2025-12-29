@@ -35,6 +35,9 @@ body.newyear {
 	background-image: url("/newyear.jpg");
 }
 
+.hidden {
+	display: none;
+}
 
 .center {
 	margin-left: auto;
